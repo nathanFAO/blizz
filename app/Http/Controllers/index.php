@@ -6,12 +6,14 @@ use Illuminate\Http\Request;
 
 class index extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
+    public function hello()
+    {
+        
+    }
+
     public function index()
     {
-        return view("welcome");
+        return view("index");
     }
 
     /**
@@ -61,4 +63,7 @@ class index extends Controller
     {
         //
     }
+    
+    
 }
+
